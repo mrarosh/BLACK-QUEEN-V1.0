@@ -168,6 +168,7 @@ cmd({
         if (!isAdmins) return citel.reply(tlang().admin);
 
         let textt = `
+===ＢＬＡＣＫ ＱＵＥＥＮ===
 ══✪〘   *Tag All*   〙✪══
 
 ➲ *Message :* ${text ? text : "blank"}\n\n
