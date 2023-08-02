@@ -67,6 +67,7 @@ Secktor.cmd({
 │ │ Time:- ${time}
 │ │ Date:- ${date}
 │ ╰──────────────◆
+| ＢＬＡＣＫ ＱＵＥＥＮ
 ╰───────────────⊷\n
 ` + '```'
                 for (const category in cmds) 
@@ -112,6 +113,7 @@ Secktor.cmd({
 ┃ ⛥│ Mem: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
 ┃ ⛥│  
 ┃ ⛥╰───────────
+| ＢＬＡＣＫ ＱＵＥＥＮ
 ╰━━━━━━━━━━━──⊷\n`
 for (let i = 0; i < commands.length; i++) 
 {
