@@ -79,7 +79,7 @@ cmd({
       i.timestamp
     }\n🌟Upload At : ${i.ago}\n👑Author : ${i.author.name}\n🎵Url : ${
       i.url
-    }\n\n──────────────\n\n`;
+    }\n\nＢＬＡＣＫ ＱＵＥＥＮ\n\n`;
         }
         return Void.sendMessage(citel.chat, {
             image: {
@@ -172,6 +172,8 @@ cmd({
                 },
                 caption: `
 ╭───────────────◆
+| ＢＬＡＣＫ ＱＵＥＥＮ
+|
 │⿻ ${tlang().title} 
 │  *Youtube Player* ✨
 │⿻ *Title:* ${anu.title}
