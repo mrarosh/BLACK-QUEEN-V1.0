@@ -157,6 +157,7 @@ cmd({
         timestampe = speed();
         latensie = speed() - timestampe;
         let ter = `
+ＢＬＡＣＫ ＱＵＥＥＮ
 🔰 *${tlang().title}* 🔰
 *🌟Description:* A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.
 *⚡Speed:* ${latensie.toFixed(4)} ms
