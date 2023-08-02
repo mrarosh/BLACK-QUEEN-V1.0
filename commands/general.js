@@ -123,13 +123,13 @@ cmd({
 *Deploy Your Own:*-
 citel-x.herokuapp.com`
         let buttonMessaged = {
-            image: { url: await botpic() },
+            image: { url:"https://i.ibb.co/T8wGgmD/Layer-1.png"() },
             caption: cap,
-            footer: tlang().footer,
+            footer: "https://i.ibb.co/T8wGgmD/Layer-1.png"().footer,
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Secktor-Repo",
+                    title: "ＢＬＡＣＫ ＱＵＥＥＮ",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
@@ -157,14 +157,13 @@ cmd({
         timestampe = speed();
         latensie = speed() - timestampe;
         let ter = `
-ＢＬＡＣＫ ＱＵＥＥＮ
-🔰 *${tlang().title}* 🔰
+🔰 *ＢＬＡＣＫ ＱＵＥＥＮ* 🔰
 *🌟Description:* A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.
 *⚡Speed:* ${latensie.toFixed(4)} ms
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 0.0.7
 *👤Owner:*  ${Config.ownername}
-*Powered by ${tlang().title}*
+*Powered by ＢＬＡＣＫ ＱＵＥＥＮ*
 `;
         let buttonMessaged = {
             image: {
