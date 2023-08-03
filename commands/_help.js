@@ -53,21 +53,22 @@ Secktor.cmd({
                     .locale('id')
                 const date = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 let total = await sck1.countDocuments()
-                let str = `╭────《 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 》─────⊷\n`
+                let str = `┠┉┉┉┉┉┇𝐁𝐋𝐀𝐂𝐊 𝐐𝐔𝐄𝐄𝐍┇┉┉┉┉┉\n`
                 str +=
-                    '```' + `│ ╭──────────────◆
-│ │ User:- ${citel.pushName}
-│ │ Theme:- ${tlang().title}
-│ │ Prefix:- [ ${prefix} ]
-│ │ Owner:- ${Config.ownername}
-│ │ Plugins:- ${commands.length}
-│ │ Users:- ${total}
-│ │ Uptime:- ${runtime(process.uptime())}
-│ │ Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
-│ │ Time:- ${time}
-│ │ Date:- ${date}
-│ ╰──────────────◆
-| ＢＬＡＣＫ ＱＵＥＥＮ
+                    '```' + `😋Good day everyone...
+                    😚how are you?...
+                    │ ╭──────────────☰☰☰
+│☰│ User:- ${citel.pushName}
+│☰│ Theme:- ${tlang().title}
+│☰│ Prefix:- [ ${prefix} ]
+│☰│ Owner:- ${Config.ownername}
+│☰│ Plugins:- ${commands.length}
+│☰│ Users:- ${total}
+│☰│ Uptime:- ${runtime(process.uptime())}
+│☰│ Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+│☰│ Time:- ${time}
+│☰│ Date:- ${date}
+│☰╰──────────────☰☰☰
 ╰───────────────⊷\n
 ` + '```'
                 for (const category in cmds) 
@@ -83,7 +84,7 @@ Secktor.cmd({
                    }
   
                 }
-                str+= `*⭐️Type:* _${prefix}help cmd_ name to know more about specific command.\n*Eg:* _${prefix}help attp_\n*Made with ❤️ in Nodejs* `
+                str+= `*⭐️Type:* _${prefix}help cmd_ name to know more about specific command.\n*Eg:* _${prefix}help attp_\n*ＢＬＡＣＫ ＱＵＥＥＮ ＭＤ* `
                 let buttonMessaged = {
                     image: { url: await botpic() },
                     caption: str
@@ -101,19 +102,18 @@ Secktor.cmd({
         async(Void, citel) => {
             const { commands } = require('../lib');
             let str = `
-╭━━〘 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 〙━━──⊷`
+┠┉┉┉┉┉┇𝐁𝐋𝐀𝐂𝐊 𝐐𝐔𝐄𝐄𝐍┇┉┉┉┉┉`
             str += `
-┃ ⛥╭──────────────      
-┃ ⛥│ User: ${citel.pushName}
-┃ ⛥│ Theme: ${tlang().title}
-┃ ⛥│ Prefix: ${prefix}
-┃ ⛥│ Owner: ${Config.ownername}
-┃ ⛥│ Commands: ${commands.length}
-┃ ⛥│ Uptime: ${runtime(process.uptime())}
-┃ ⛥│ Mem: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
-┃ ⛥│  
-┃ ⛥╰───────────
-| ＢＬＡＣＫ ＱＵＥＥＮ
+┃ ☰╭──────────────      
+┃ ☰│ User: ${citel.pushName}
+┃ ☰│ Theme: ${tlang().title}
+┃ ☰│ Prefix: ${prefix}
+┃ ☰│ Owner: ${Config.ownername}
+┃ ☰│ Commands: ${commands.length}
+┃ ☰│ Uptime: ${runtime(process.uptime())}
+┃ ☰│ Mem: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+┃ ☰│  
+┃ ☰╰───────────
 ╰━━━━━━━━━━━──⊷\n`
 for (let i = 0; i < commands.length; i++) 
 {
