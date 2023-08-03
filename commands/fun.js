@@ -69,7 +69,7 @@ cmd({
         var quoo = await axios.get(`https://favqs.com/api/qotd`)
         const replyf = `
 ╔════◇
-║ ＢＬＡＣＫ ＱＵＥＥＮ
+║ ＢＬＡＣＫ ＱＵＥＥＮ ＭＤ
 ║
 ║ *🎗️Content:* ${quoo.data.quote.body}
 ║ *👤Author:* ${quoo.data.quote.author}
