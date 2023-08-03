@@ -157,13 +157,13 @@ cmd({
         timestampe = speed();
         latensie = speed() - timestampe;
         let ter = `
-🔰 *ＢＬＡＣＫ ＱＵＥＥＮ* 🔰
+🔰 ┉┉┉┉┇𝐁𝐋𝐀𝐂𝐊 𝐐𝐔𝐄𝐄𝐍┇┉┉┉┉ 🔰
 *🌟Description:* A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.
 *⚡Speed:* ${latensie.toFixed(4)} ms
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 0.0.7
 *👤Owner:*  ${Config.ownername}
-*Powered by ＢＬＡＣＫ ＱＵＥＥＮ*
+*Powered by ᴀ ʀ ᴏ ꜱ ʜ  ʙ ᴏ ʏ*
 `;
         let buttonMessaged = {
             image: {
@@ -200,7 +200,7 @@ cmd({
 async(Void, citel,text,{isCreator}) => {
 
 if(!isCreator) return citel.reply(tlang().owner);
-let str="*All available themes in Secktor*"
+let str="*All available themes in Black Queen*"
 str+=`1. SECKTOR\n2. ADAM\n3. AYANOKOJI\n4. EDITH\n5. FRIDAY\n6. GENOS\n7. GIDEON\n8. GOKU\n9. LUFFY\n10. NARUTO\n11. NEZUKO\n12. PARKER\n13. ZEROTWO\n14. Eren Jeager(Coming Soon)\n\n these are the themes of Secktor Userbot.\_Reply ${prefix}setvar THEME:ZEROTWO`
 return citel.reply(str)
     
