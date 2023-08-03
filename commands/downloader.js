@@ -111,7 +111,7 @@ cmd({
                 if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
-                citel.reply('*Downloadig:* '+titleYt)
+                citel.reply('*🔄Downloading Your Video...* ')
                 const stream = ytdl(urlYt, {
                         filter: (info) => info.itag == 22 || info.itag == 18,
                     })
@@ -129,7 +129,7 @@ cmd({
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ⿻ Title : ${titleYt}\n ⿻ File Size : ${fileSizeInMegabytes} MB`,
+                        caption: ` ＢＬＡＣＫ ＱＵＥＥＮ ＭＤ\n 𝙾𝚆𝙽𝙴𝚁 - ᴀ ʀ ᴏ ꜱ ʜ  ʙ ᴏ ʏ`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
@@ -171,18 +171,18 @@ cmd({
                     url: anu.thumbnail,
                 },
                 caption: `
-╭───────────────◆
-| ＢＬＡＣＫ ＱＵＥＥＮ
+┠┉┉┉┉┉┇𝐁𝐋𝐀𝐂𝐊 𝐐𝐔𝐄𝐄𝐍┇┉┉┉┉┉
 |
-│⿻ ${tlang().title} 
-│  *Youtube Player* ✨
-│⿻ *Title:* ${anu.title}
-│⿻ *Duration:* ${anu.timestamp}
-│⿻ *Viewers:* ${anu.views}
-│⿻ *Uploaded:* ${anu.ago}
-│⿻ *Author:* ${anu.author.name}
+│  *Youtube ▶️*
+│⭕ *Title:* ${anu.title}
+│⭕ *Duration:* ${anu.timestamp}
+│⭕ *Viewers:* ${anu.views}
+│⭕ *Uploaded:* ${anu.ago}
+│⭕ *Author:* ${anu.author.name}
 ╰────────────────◆
-⦿ *Url* : ${anu.url}
+⦿ *URL* : ${anu.url}
+
+ＢＬＡＣＫ ＱＵＥＥＮ ＭＤ
 `,
                 footer: tlang().footer,
                 headerType: 4,
@@ -303,7 +303,7 @@ cmd({
             if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
             let titleYt = infoYt.videoDetails.title;
             let randomName = getRandom(".mp3");
-            citel.reply('*Downloadig:* '+titleYt)
+            citel.reply('*🔄Downloading Your Song...* ')
             const stream = ytdl(anu.url, {
                     filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
                 })
@@ -390,7 +390,7 @@ cmd({
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ⿻ Title : ${titleYt}\n ⿻ File Size : ${fileSizeInMegabytes} MB`,
+                        caption: ` ＢＬＡＣＫ ＱＵＥＥＮ ＭＤ\n 𝙾𝚆𝙽𝙴𝚁 - ᴀ ʀ ᴏ ꜱ ʜ  ʙ ᴏ ʏ`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
