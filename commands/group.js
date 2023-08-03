@@ -91,7 +91,7 @@ cmd({
         citel.reply(`*Check your Pm ${tlang().greet}*`);
         await Void.sendMessage(`${citel.sender}`, {
             image: log0,
-            caption: `*Group Name: Secktor-Support*\n*Group Link:* https://chat.whatsapp.com/Bl2F9UTVU4CBfZU6eVnrbC`,
+            caption: `*Group Name: Blacl Queen-Support*\n*Group Link:* https://chat.whatsapp.com/Bl2F9UTVU4CBfZU6eVnrbC`,
         });
 
     }
@@ -367,7 +367,7 @@ cmd({
 *🧩Role:* ${role}
 *🍁Level:* ${userq.level}
 *📥 Total Messages* ${ttms}
-*Powered by ${tlang().title}*
+*Powered by ＢＬＡＣＫ ＱＵＥＥＮ ＭＤ*
 `;
             let buttonMessage = {
                 image: {
