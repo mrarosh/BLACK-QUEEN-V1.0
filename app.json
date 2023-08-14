@@ -1,5 +1,5 @@
 {
-   "name":"DARK ALFHA",
+   "name":"AROSH BOY",
    "description":"A WhatsApp Bot With Multi Device Supported",
    "keywords":[
       "bot",
@@ -7,7 +7,7 @@
    ],
    "website":"https://deep-eagle.github.io/Deep-Eagle",
    "repository":"https://github.com/Deep-Eagle/DARK-ALFHA_V2.git",
-   "logo":"https://i.ibb.co/SVbyxZG/1691320469926.jpg",
+   "logo":"https://i.ibb.co/PCpDYXN/BLACK-QUEEN.png",
    "success_url":"/",
    "env":{
       "NAME":{
